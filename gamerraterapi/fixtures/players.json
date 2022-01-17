@@ -1,0 +1,10 @@
+[
+    {
+        "model": "gamerraterapi.player",
+        "pk": 1,
+        "fields": {
+            "bio": "I like board games and turtles.",
+            "user": 1
+        }
+    }
+]

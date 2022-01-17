@@ -1,0 +1,28 @@
+[
+    {
+        "model": "gamerraterapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Monopoly",
+            "description": "Monopoly is the classic fast-dealing property trading board game.",
+            "designer": "Hasbro",
+            "year_released": 1935,
+            "num_players": 8,
+            "gameplay_length": 90,
+            "age": 8
+        }
+    },
+    {
+        "model": "gamerraterapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Risk",
+            "description": "Risk is a strategy board game of diplomacy, conflict and conquest for two to six players.",
+            "designer": "Hasbro",
+            "year_released": 1957,
+            "num_players": 6,
+            "gameplay_length": 300,
+            "age": 10
+        }
+    }
+]

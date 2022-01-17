@@ -1,0 +1,20 @@
+[
+    {
+        "model": "gamerraterapi.entry",
+        "pk": 1,
+        "fields": {
+            "entry": "Monopoly was an enjoyable game until I landed on Boardwalk with a hotel on it. Then all hell broke loose.",
+            "game": 1,
+            "player": 1
+        }
+    },
+    {
+        "model": "gamerraterapi.entry",
+        "pk": 2,
+        "fields": {
+            "entry": "Risk was pretty fun! I absolutely dominated. It takes quite a bit of strategy.",
+            "game": 2,
+            "player": 1
+        }
+    }
+]
