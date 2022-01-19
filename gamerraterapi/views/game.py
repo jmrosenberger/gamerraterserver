@@ -4,7 +4,8 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from gamerraterapi.models import Game, Player
+from gamerraterapi.models import Game, Player, Category
+from gamerraterapi.views.category import CategorySerializer
 # from django.db.models import Q
 
 class GameView(ViewSet):
@@ -139,9 +140,10 @@ class GameSerializer(serializers.ModelSerializer):
     Arguments:
         serializer type
     """
-
+    # categories = CategorySerializer(many=True)
+    
     class Meta:
         model = Game
         fields = ('id', 'title', 'description', 'designer',
-                  'year_released', 'num_players', 'gameplay_length', 'age', 'categories')
+                  'year_released', 'num_players', 'gameplay_length', 'age', 'categories', 'average_rating')
         depth = 1
